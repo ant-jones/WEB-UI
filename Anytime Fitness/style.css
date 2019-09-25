@@ -1,0 +1,70 @@
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#1A482A;
+}
+.navBar{
+    padding-top: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Post No Bills Jaffna;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+p{
+    font-size: 3rem;
+    color: white;
+    margin:0;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+.topPics{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:20px;
+    /* background-color: #1A482A; */
+   
+}
+.pics {
+    position: relative;
+    width: 30%;
+  }
+  
+  .stretch {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    height: 293px;
+    width: 354px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: grey;
+  }
+  
+  .pics:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: b#1A482A;
+    font-size: 20px;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;  
+  }
