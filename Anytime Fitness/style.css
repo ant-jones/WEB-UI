@@ -9,25 +9,20 @@
 .navBar{
   padding: 0 20px;  
 }
-
 .logo{
   padding-left: 20px;
-}
-
-.logo2{
-  font-size: 2rem;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
- 
+  background-color: rgb(105, 160, 124);
 }
 
 li {
   float: right;
-  border-right:1px solid #bbb;
+  border-right:1px solid #1A482A;
 }
 
 li:last-child {
@@ -52,6 +47,7 @@ li a:hover:not(.active) {
 }
 
 h1{
+    
     font-size: 2.5rem;
     color: #1A482A;
     margin: 0;
@@ -59,7 +55,7 @@ h1{
 }
 
 .team{
-  padding-right: 100px;
+  padding-right: 80px;
 }
 .topPics{
     display: flex;
@@ -67,17 +63,15 @@ h1{
     justify-content: center;
     justify-content: space-around;
     
+    /* background-color: #1A482A; */
+   
 }
 .pics {
     position: relative;
     width: 30%;
   }
    
-  .hovtext{
-    font-family: 'Allerta Stencil', sans-serif;
-  }
-
-  .stretch {
+   .stretch {
     display: flex;
     width: 100%;
     
@@ -110,6 +104,7 @@ h1{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;  
+    font-family: 'Allerta Stencil', sans-serif;
   }
 
   .tagline{
