@@ -3,37 +3,26 @@
   
 }
 .container{
-  padding:20px;
+  padding:30px;
 }
 
-/* header{
-    display: flex;
-    width: 100%;
-    
-   
-}
-
-a {
-    text-decoration: none;
-    color: #1A482A;
-    font-family: Post No Bills Jaffna;
-    padding: 20px;
-    padding-right: 20px;
-    font-size: 1.5rem;
-    font-family: 'Allerta Stencil', sans-serif;
-} */
 .navBar{
   padding: 0 20px;  
 }
+
 .logo{
   padding-left: 20px;
+}
+
+.logo2{
+  font-size: 2rem;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: rgb(250, 249, 249); */
+ 
 }
 
 li {
@@ -61,35 +50,33 @@ li a:hover:not(.active) {
 .active {
   background-color: #1A482A;
 }
-/* .barbell{
-   display: flex;
-   margin: 0;
-} */
+
 h1{
-    /* display: flex;
-    align-items: center;
-    padding: 20px; */
     font-size: 2.5rem;
     color: #1A482A;
     margin: 0;
     font-family: 'Allerta Stencil', sans-serif;
 }
+
+.team{
+  padding-right: 100px;
+}
 .topPics{
     display: flex;
+    width:100%;
     justify-content: center;
     justify-content: space-around;
     
-    /* background-color: #1A482A; */
-   
 }
 .pics {
     position: relative;
     width: 30%;
   }
    
-  .text{
+  .hovtext{
     font-family: 'Allerta Stencil', sans-serif;
   }
+
   .stretch {
     display: flex;
     width: 100%;
