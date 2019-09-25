@@ -1,31 +1,84 @@
+*{
+  background-color: rgba(207, 203, 203, 0.863);
+  
+}
+.container{
+  padding:20px;
+}
 
-header{
+/* header{
     display: flex;
-    justify-content: space-around;
-    background-color:#1A482A;
+    width: 100%;
+    
+   
 }
-.navBar{
-    padding-top: 30px;
-}
+
 a {
     text-decoration: none;
-    color: white;
+    color: #1A482A;
     font-family: Post No Bills Jaffna;
     padding: 20px;
+    padding-right: 20px;
     font-size: 1.5rem;
     font-family: 'Allerta Stencil', sans-serif;
+} */
+.navBar{
+  padding: 0 20px;  
 }
-p{
-    font-size: 3rem;
-    color: white;
-    margin:0;
+.logo{
+  padding-left: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: rgb(250, 249, 249); */
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1A482A;
+}
+
+.active {
+  background-color: #1A482A;
+}
+/* .barbell{
+   display: flex;
+   margin: 0;
+} */
+h1{
+    /* display: flex;
+    align-items: center;
+    padding: 20px; */
+    font-size: 2.5rem;
+    color: #1A482A;
+    margin: 0;
     font-family: 'Allerta Stencil', sans-serif;
 }
 .topPics{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding:20px;
+    
     /* background-color: #1A482A; */
    
 }
@@ -33,7 +86,10 @@ p{
     position: relative;
     width: 30%;
   }
-  
+   
+  .text{
+    font-family: 'Allerta Stencil', sans-serif;
+  }
   .stretch {
     display: flex;
     width: 100%;
@@ -42,15 +98,15 @@ p{
   
   .overlay {
     position: absolute;
-    top: 20px;
+    top: 0px;
     bottom: 0;
-    left: 20px;
+    left: 0px;
     right: 0;
     height: 293px;
     width: 354px;
     opacity: 0;
     transition: .5s ease;
-    background-color: grey;
+    background-color: rgba(100, 99, 99, 0.582);
   }
   
   .pics:hover .overlay {
@@ -59,7 +115,7 @@ p{
   
   .text {
     color: b#1A482A;
-    font-size: 20px;
+    font-size: 2rem;
     position: relative;
     top: 40%;
     left: 50%;
@@ -67,4 +123,41 @@ p{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;  
+  }
+
+  .tagline{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #1A482A;
+  }
+  .tag{
+    font-family: Post No Bills Jaffna;
+    padding-top:20px;
+  }
+  .pitch{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .icon{
+    display: flex;
+  }
+
+  .heart{
+    padding-top: 25px;
+  }
+  .points{
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  .botsec{
+    display: flex;
+    padding:20px;
+    font-family: Post No Bills Jaffna;
   }
