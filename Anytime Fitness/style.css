@@ -144,7 +144,35 @@ h1{
     font-family: Post No Bills Jaffna;
   }
 
+  .teampics{
+    border-radius: 25%;
+    
+  }
+
   .titleinfo{
+    padding-left: 20px;
     font-family: Post No Bills Jaffna;
     font-size: 1.5rem;
   }
+
+  .teampic{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding-top: 30px;
+  }
+
+  .teampic2{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding-top: 30px;
+  }
+
+    /* .toprow{
+    display: flex;
+    padding: 60px 30px;
+  } */
+  
+ 
+
