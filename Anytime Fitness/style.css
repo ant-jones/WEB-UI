@@ -6,9 +6,34 @@
   padding:30px;
 }
 
+@media only screen and (max-width: 500px){
+  .container{
+    padding: 0;
+  }
+}
 .navBar{
   padding: 0 20px;  
 }
+
+@media only screen and (max-width: 500px){
+  .navBar{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+  }
+  .navBar2{
+    padding-left: 40px;
+  }
+  .logo2{
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+    
+ li a{ 
+  padding: 14px 20px;
+  }
+}
+
 .logo{
   padding-left: 20px;
 }
@@ -24,10 +49,6 @@ li {
   float: right;
   border-right:1px solid #1b436d;
 }
-
-/* li:last-child {
-  border-right: none;
-} */
 
 li a {
   display: block;
@@ -55,16 +76,21 @@ h1{
 }
 
 .team{
-  padding-right: 80px;
+  padding-right: 90px;
 }
-.topPics{
+.topPic{
     display: flex;
     width:100%;
     justify-content: center;
     justify-content: space-around;
     
-    /* background-color: #1A482A; */
-   
+}
+
+@media only screen and (max-width: 500px){
+ 
+  .pics{
+    display:none;
+  }
 }
 .pics {
     position: relative;
@@ -113,15 +139,29 @@ h1{
     font-size: 3rem;
     background-color: #1b436d;
   }
+
+  @media only screen and (max-width: 500px){
+    .tagline{
+    font-size: 2rem;
+    }
+  }
+
   .tag{
     font-family: Post No Bills Jaffna;
     padding-top:20px;
   }
-  .pitch{
+    
+    .pitch{
     text-align: center;
     font-size: 2rem;
   }
 
+  @media only screen and (max-width: 500px){
+      .pitch{
+        font-size: 1.5rem;
+      }
+
+  }
   .title{
     font-size: 1.5rem;
   }
@@ -138,15 +178,27 @@ h1{
     font-size: 1.5rem;
   }
 
+  @media only screen and (max-width: 500px){
+    .points{
+      width: 100%;
+    }
+  }
+
+
   .botsec{
     display: flex;
     padding:20px;
     font-family: Post No Bills Jaffna;
   }
 
+  @media only screen and (max-width: 500px){
+    .botsec{
+      flex-direction: column;
+    }
+  }
+
   .teampics{
     border-radius: 25%;
-    
   }
 
   .titleinfo{
@@ -161,6 +213,11 @@ h1{
     width:100%;
     padding-top: 30px;
   }
+  @media only screen and (max-width: 500px){
+    .teampic{
+      margin-left: 40px;
+    }
+  }
 
   .teampic2{
     display: flex;
@@ -169,10 +226,7 @@ h1{
     padding-top: 30px;
   }
 
-    /* .toprow{
-    display: flex;
-    padding: 60px 30px;
-  } */
+   
   
  
 
