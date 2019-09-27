@@ -1,0 +1,232 @@
+*{
+  background-color: rgba(207, 203, 203, 0.863);
+  
+}
+.container{
+  padding:30px;
+}
+
+@media only screen and (max-width: 500px){
+  .container{
+    padding: 0;
+  }
+}
+.navBar{
+  padding: 0 20px;  
+}
+
+@media only screen and (max-width: 500px){
+  .navBar{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+  }
+  .navBar2{
+    padding-left: 40px;
+  }
+  .logo2{
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+    
+ li a{ 
+  padding: 14px 20px;
+  }
+}
+
+.logo{
+  padding-left: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: right;
+  border-right:1px solid #1b436d;
+}
+
+li a {
+  display: block;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1b436d;
+}
+
+.active {
+  background-color: #1b436d;
+}
+
+h1{
+    
+    font-size: 2.5rem;
+    color: #1b436d;
+    margin: 0;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.team{
+  padding-right: 90px;
+}
+.topPic{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+@media only screen and (max-width: 500px){
+ 
+  .pics{
+    display:none;
+  }
+}
+.pics {
+    position: relative;
+    width: 30%;
+  }
+   
+   .stretch {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    height: 293px;
+    width: 354px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(100, 99, 99, 0.582);
+  }
+  
+  .pics:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: #1b436d;
+    font-size: 2rem;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;  
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+
+  .tagline{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #1b436d;
+  }
+
+  @media only screen and (max-width: 500px){
+    .tagline{
+    font-size: 2rem;
+    }
+  }
+
+  .tag{
+    font-family: Post No Bills Jaffna;
+    padding-top:20px;
+  }
+    
+    .pitch{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width: 500px){
+      .pitch{
+        font-size: 1.5rem;
+      }
+
+  }
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .icon{
+    display: flex;
+  }
+
+  .heart{
+    padding-top: 25px;
+  }
+  .points{
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 500px){
+    .points{
+      width: 100%;
+    }
+  }
+
+
+  .botsec{
+    display: flex;
+    padding:20px;
+    font-family: Post No Bills Jaffna;
+  }
+
+  @media only screen and (max-width: 500px){
+    .botsec{
+      flex-direction: column;
+    }
+  }
+
+  .teampics{
+    border-radius: 26%;
+  }
+
+  .titleinfo{
+    padding-left: 20px;
+    font-family: Post No Bills Jaffna;
+    font-size: 1.5rem;
+  }
+
+  .teampic{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding-top: 30px;
+  }
+  @media only screen and (max-width: 500px){
+    .teampic{
+      margin-left: 40px;
+    }
+  }
+
+  .teampic2{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding-top: 30px;
+  }
+
+   
+  
+ 
+
